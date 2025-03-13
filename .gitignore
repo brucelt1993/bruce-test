@@ -1,0 +1,66 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# 编译输出和构建目录
+/dist
+/build
+/out
+/target
+/bin
+/obj
+/node_modules
+/lib
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+log/
+logs/
+
+# 本地环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 缓存文件
+.npm
+.eslintcache
+.stylelintcache
+.cache
+.parcel-cache
+
+# 测试覆盖率报告
+/coverage
+
+# 依赖文件锁（取决于你使用的包管理器，可能需要保留其中一些）
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# 其他通用忽略文件
+*.bak
+*.tmp
+*.temp
+*.tgz
+*.tsbuildinfo
